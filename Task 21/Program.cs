@@ -54,6 +54,6 @@ Console.Write("Введите координату Z точки B: ");
 double z2 = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine(Math.Round(
-    Math.Sqrt(Math.Pow(x_1 - x_2, 2) + 
-    Math.Pow(y_1 - y_2, 2) + 
+    Math.Sqrt(Math.Pow(x1 - x2, 2) + 
+    Math.Pow(y1 - y2, 2) + 
     Math.Pow(z1 - z2, 2)), 2));
